@@ -1,0 +1,50 @@
+1667936763209	geckodriver	INFO	Listening on 127.0.0.1:60242
+1667936766310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aruns\\AppData\\Local\\Temp\\rust_mozprofile8sNZsO"
+1667936767506	Marionette	INFO	Marionette enabled
+1667936767519	Marionette	INFO	Listening on port 60261
+Read port: 60261
+WebDriver BiDi listening on ws://127.0.0.1:60243
+1667936767735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aruns\\AppData\\Local\\Temp\\rust_mozprofile8sNZsO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60243/devtools/browser/dbb5ff0f-73b6-4bf8-b4d7-705143f0f8d8
+1667936776295	Marionette	INFO	Stopped listening on port 60261
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\aruns\AppData\Local\Temp\rust_mozprofile8sNZsO\protections.sqlite
+1667936777906	geckodriver	INFO	Listening on 127.0.0.1:60318
+1667936780965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aruns\\AppData\\Local\\Temp\\rust_mozprofileKpN8wq"
+1667936781584	Marionette	INFO	Marionette enabled
+1667936781589	Marionette	INFO	Listening on port 60331
+Read port: 60331
+WebDriver BiDi listening on ws://127.0.0.1:60319
+1667936781780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aruns\\AppData\\Local\\Temp\\rust_mozprofileKpN8wq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60319/devtools/browser/0b36cd9a-19c6-4a24-95dd-019ec5c5e3fd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1667936791427	Marionette	INFO	Stopped listening on port 60331
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: https://admin-demo.nopcommerce.com/lib_npm/jquery/jquery.min.js?v=meexYto0mAKr6PjyeE37ROc-We8, line 2: NS_ERROR_NOT_INITIALIZED: 
+1667937944755	geckodriver	INFO	Listening on 127.0.0.1:62322
+1667937947848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62323" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aruns\\AppData\\Local\\Temp\\rust_mozprofilePkhB8z"
+1667937949043	Marionette	INFO	Marionette enabled
+1667937949054	Marionette	INFO	Listening on port 62334
+Read port: 62334
+WebDriver BiDi listening on ws://127.0.0.1:62323
+1667937949995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aruns\\AppData\\Local\\Temp\\rust_mozprofilePkhB8z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62323/devtools/browser/8ab6c36f-a661-49d5-9c0f-379ffebb7eca
+1667938003225	Marionette	INFO	Stopped listening on port 62334
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667938003634	geckodriver	INFO	Listening on 127.0.0.1:62815
+1667938006679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62816" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aruns\\AppData\\Local\\Temp\\rust_mozprofiles810vb"
+1667938007371	Marionette	INFO	Marionette enabled
+1667938007377	Marionette	INFO	Listening on port 62827
+WebDriver BiDi listening on ws://127.0.0.1:62816
+Read port: 62827
+1667938007664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aruns\\AppData\\Local\\Temp\\rust_mozprofiles810vb\\search.json.mozlz4", (void 0)))
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+1667938010330	Marionette	INFO	Stopped listening on port 62827
+1667938010350	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
