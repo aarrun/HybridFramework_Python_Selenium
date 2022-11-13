@@ -17,7 +17,7 @@ class AddCustomer:
 	txtDOB_xpath = "//input[@id='DateOfBirth']"
 	txtCompanyName_xpath = "//input[@id='Company']"
 	chkboxTAX_xpath = "//input[@id='IsTaxExempt']"
-	dropdownNewsletter_xpath = "//div[@class='k-widget k-multiselect k-multiselect-clearable k-state-hover k-state-focused k-state-border-down']//div[@role='listbox']"
+	dropdownNewsletter_xpath = "//input[@class='k-input k-readonly']"
 	lstItemYourStore_xpath = "//li[normalize-space()='Your store name']"
 	lstItemTS2_xpath = "//li[normalize-space()='Test store 2']"
 	dropdownManager_xpath = "//select[@id='VendorId']"
@@ -26,7 +26,7 @@ class AddCustomer:
 	optNotVendor2_xpath = "//option[@value='2']"
 	chkboxActive_xpath = "//input[@id='Active']"
 	txtAdminComment_xpath = "//textarea[@id='AdminComment']"
-	txtboxCustomerRoles_xpath = "//div[@class='k-widget k-multiselect k-multiselect-clearable k-state-focused k-state-hover k-state-border-down']//div[@role='listbox']"
+	txtboxCustomerRoles_xpath = "//div[@class='input-group-append input-group-required']//input[@role='listbox']"
 	lstItemAdmins_xpath = "//li[normalize-space()='Administrators']"
 	lstItemForumMods_xpath = "//li[normalize-space()='Forum Moderators']"
 	lstItemGuests_xpath = "//li[normalize-space()='Guests']"
@@ -77,7 +77,7 @@ class AddCustomer:
 
 		elif role == 'Guests':
 			time.sleep(3)
-			self.driver.find_element(By.XPATH, "//span[normalize-space()='Registered']").click()
+			self.driver.find_element(By.XPATH, "//span[@title='delete']").click()
 			self.listitem = self.driver.find_element(By.XPATH, self.lstItemGuests_xpath)
 
 		elif role == 'Registered':
@@ -107,3 +107,9 @@ class AddCustomer:
 
 		else:
 			self.driver.find_element(By.XPATH, self.rdMaleGender_xpath).click()
+
+	def clickOnSave(self):
+		self.driver.find_element(By.XPATH, self.btnSave_xpath).click()
+
+	def setAdminComment(self,value):
+		self.driver.find_element(By.XPATH, self.txtAdminComment_xpath).send_keys(value)

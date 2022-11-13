@@ -55,3 +55,57 @@ INFO:root:Login Test
 11/09/22 11:56:18 PM: INFO: Login DDT Test is passed
 11/09/22 11:56:18 PM: INFO: End of DDT
 11/09/22 11:56:18 PM: INFO: Completed TC_LoginDDT_OO2
+11/13/22 04:39:28 PM: INFO: Test_003_AddCustomer
+11/13/22 04:39:35 PM: INFO: Login Successful
+11/13/22 04:40:40 PM: INFO: Test_003_AddCustomer
+11/13/22 04:40:45 PM: INFO: Login Successful
+11/13/22 04:40:50 PM: INFO: Providing Customer Info
+11/13/22 04:45:33 PM: INFO: Test_003_AddCustomer
+11/13/22 04:45:42 PM: INFO: Login Successful
+11/13/22 04:45:48 PM: INFO: Providing Customer Info
+11/13/22 04:50:01 PM: INFO: Test_003_AddCustomer
+11/13/22 04:50:08 PM: INFO: Login Successful
+11/13/22 04:50:12 PM: INFO: Providing Customer Info
+11/13/22 04:50:24 PM: INFO:  Saving Customer Info
+11/13/22 04:50:24 PM: INFO: Add customer validation started
+11/13/22 04:50:24 PM: ERROR: Test Failed
+11/13/22 04:52:30 PM: INFO: Test_003_AddCustomer
+11/13/22 04:52:38 PM: INFO: Login Successful
+11/13/22 04:52:42 PM: INFO: Providing Customer Info
+11/13/22 04:52:55 PM: INFO:  Saving Customer Info
+11/13/22 04:52:55 PM: INFO: Add customer validation started
+11/13/22 04:52:55 PM: INFO: Test Passed
+11/13/22 04:54:19 PM: INFO: Test_003_AddCustomer
+11/13/22 04:54:27 PM: INFO: Login Successful
+11/13/22 04:54:31 PM: INFO: Providing Customer Info
+11/13/22 04:54:46 PM: INFO:  Saving Customer Info
+11/13/22 04:54:46 PM: INFO: Add customer validation started
+11/13/22 04:54:46 PM: INFO: Test Passed
+11/13/22 04:56:25 PM: INFO: Test_003_AddCustomer
+11/13/22 04:56:32 PM: INFO: Login Successful
+11/13/22 04:56:36 PM: INFO: Providing Customer Info
+11/13/22 04:56:49 PM: INFO:  Saving Customer Info
+11/13/22 04:56:49 PM: INFO: Add customer validation started
+11/13/22 04:56:49 PM: INFO: Test Passed
+11/14/22 01:48:44 AM: INFO: SearchCustomerByEmail_004
+11/14/22 01:48:53 AM: INFO: Login Successful
+11/14/22 01:48:53 AM: INFO: Search Customer Test Started
+11/14/22 01:48:55 AM: INFO:  searching customer by emailID
+11/14/22 01:51:10 AM: INFO: SearchCustomerByEmail_004
+11/14/22 01:51:18 AM: INFO: Login Successful
+11/14/22 01:51:18 AM: INFO: Search Customer Test Started
+11/14/22 01:51:21 AM: INFO:  searching customer by emailID
+11/14/22 01:52:15 AM: INFO: SearchCustomerByEmail_004
+11/14/22 01:52:25 AM: INFO: Login Successful
+11/14/22 01:52:25 AM: INFO: Search Customer Test Started
+11/14/22 01:52:28 AM: INFO:  searching customer by emailID
+11/14/22 01:52:33 AM: INFO: Test Finished
+11/14/22 01:57:19 AM: INFO: SearchSearchCustomerByName_005
+11/14/22 01:57:28 AM: INFO: Login Successful
+11/14/22 01:57:28 AM: INFO: Search Customer Test Started
+11/14/22 01:57:30 AM: INFO:  searching customer by Name
+11/14/22 01:58:53 AM: INFO: SearchSearchCustomerByName_005
+11/14/22 01:59:02 AM: INFO: Login Successful
+11/14/22 01:59:02 AM: INFO: Search Customer Test Started
+11/14/22 01:59:04 AM: INFO:  searching customer by Name
+11/14/22 01:59:09 AM: INFO: Test Finished
