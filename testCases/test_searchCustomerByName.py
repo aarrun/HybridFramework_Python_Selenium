@@ -1,4 +1,7 @@
 import time
+
+import pytest
+
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddCustomerPage import AddCustomer
 from pageObjects.SearchCustomer import SearchCustomer
@@ -12,6 +15,7 @@ class Test_SearchCustomerByName_005:
 	Password = ReadConfig.getPassword()
 	logger = LogGen.loggen()
 
+	@pytest.mark.regression
 	def test_searchCustomerByName(self, setup):
 		self.logger.info("SearchSearchCustomerByName_005")
 		self.driver = setup
@@ -40,5 +44,3 @@ class Test_SearchCustomerByName_005:
 		assert True == status
 		self.logger.info("Test Finished")
 		self.driver.close()
-
-

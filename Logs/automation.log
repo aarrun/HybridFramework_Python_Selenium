@@ -109,3 +109,66 @@ INFO:root:Login Test
 11/14/22 01:59:02 AM: INFO: Search Customer Test Started
 11/14/22 01:59:04 AM: INFO:  searching customer by Name
 11/14/22 01:59:09 AM: INFO: Test Finished
+11/14/22 02:23:38 AM: INFO: ****Test_001_Login*****
+11/14/22 02:23:38 AM: INFO: Verifying
+11/14/22 02:23:59 AM: INFO: Login Test
+11/14/22 02:28:12 AM: INFO: ****Test_001_Login*****
+11/14/22 02:28:12 AM: INFO: Verifying
+11/14/22 02:28:33 AM: INFO: Login Test
+11/14/22 02:28:42 AM: INFO: Login Test
+11/14/22 02:28:55 AM: INFO: Test Passed
+11/14/22 02:29:03 AM: INFO: Passed
+11/14/22 02:29:09 AM: INFO: Passed
+11/14/22 02:29:15 AM: INFO: Passed
+11/14/22 02:29:15 AM: INFO: Login DDT Test is passed
+11/14/22 02:29:31 AM: INFO: End of DDT
+11/14/22 02:29:31 AM: INFO: Completed TC_LoginDDT_OO2
+11/14/22 02:29:32 AM: INFO: SearchCustomerByEmail_004
+11/14/22 02:29:39 AM: INFO: Login Successful
+11/14/22 02:29:39 AM: INFO: Search Customer Test Started
+11/14/22 02:29:42 AM: INFO:  searching customer by emailID
+11/14/22 02:29:47 AM: INFO: Test Finished
+11/14/22 02:30:05 AM: INFO: SearchSearchCustomerByName_005
+11/14/22 02:30:13 AM: INFO: Login Successful
+11/14/22 02:30:13 AM: INFO: Search Customer Test Started
+11/14/22 02:30:14 AM: INFO:  searching customer by Name
+11/14/22 02:30:20 AM: INFO: Test Finished
+11/14/22 02:33:00 AM: INFO: ****Test_001_Login*****
+11/14/22 02:33:00 AM: INFO: Verifying
+11/14/22 02:33:21 AM: INFO: Login Test
+11/14/22 02:42:20 AM: INFO: Test_003_AddCustomer
+11/14/22 02:42:29 AM: INFO: Login Successful
+11/14/22 02:42:34 AM: INFO: Providing Customer Info
+11/14/22 02:42:46 AM: INFO:  Saving Customer Info
+11/14/22 02:42:46 AM: INFO: Add customer validation started
+11/14/22 02:42:46 AM: INFO: Test Passed
+11/14/22 02:42:47 AM: INFO: ****Test_001_Login*****
+11/14/22 02:42:47 AM: INFO: Verifying
+11/14/22 02:43:08 AM: INFO: Login Test
+11/14/22 02:44:02 AM: INFO: Test_003_AddCustomer
+11/14/22 02:44:10 AM: INFO: Login Successful
+11/14/22 02:44:14 AM: INFO: Providing Customer Info
+11/14/22 02:44:26 AM: INFO:  Saving Customer Info
+11/14/22 02:44:26 AM: INFO: Add customer validation started
+11/14/22 02:44:26 AM: INFO: Test Passed
+11/14/22 02:44:28 AM: INFO: ****Test_001_Login*****
+11/14/22 02:44:28 AM: INFO: Verifying
+11/14/22 02:44:52 AM: INFO: Login Test
+11/14/22 02:46:39 AM: INFO: Test_003_AddCustomer
+11/14/22 02:46:48 AM: INFO: Login Successful
+11/14/22 02:46:51 AM: INFO: Providing Customer Info
+11/14/22 02:47:03 AM: INFO:  Saving Customer Info
+11/14/22 02:47:03 AM: INFO: Add customer validation started
+11/14/22 02:47:04 AM: INFO: Test Passed
+11/14/22 02:47:05 AM: INFO: ****Test_001_Login*****
+11/14/22 02:47:05 AM: INFO: Verifying
+11/14/22 02:47:28 AM: INFO: Login Test
+11/14/22 02:48:35 AM: INFO: Test_003_AddCustomer
+11/14/22 02:48:42 AM: INFO: Login Successful
+11/14/22 02:48:45 AM: INFO: Providing Customer Info
+11/14/22 02:48:57 AM: INFO:  Saving Customer Info
+11/14/22 02:48:57 AM: INFO: Add customer validation started
+11/14/22 02:48:57 AM: INFO: Test Passed
+11/14/22 02:48:59 AM: INFO: ****Test_001_Login*****
+11/14/22 02:48:59 AM: INFO: Verifying
+11/14/22 02:49:19 AM: INFO: Login Test

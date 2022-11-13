@@ -7,12 +7,14 @@ from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
 
+
 class Test_003_AddCustomer:
 	baseURL = ReadConfig.getApplicationURL()
 	email = ReadConfig.getUserEmail()
 	password = ReadConfig.getPassword()
 	logger = LogGen.loggen()
 
+	@pytest.mark.sanity
 	def test_addCustomer(self, setup):
 		self.logger.info("Test_003_AddCustomer")
 		self.driver = setup

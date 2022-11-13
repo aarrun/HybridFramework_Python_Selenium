@@ -1,16 +1,21 @@
 import time
+
+import pytest
+
 from pageObjects.LoginPage import LoginPage
 from pageObjects.AddCustomerPage import AddCustomer
 from pageObjects.SearchCustomer import SearchCustomer
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
+
 class Test_SearchCustomerByEmail_004:
-	baseURL =ReadConfig.getApplicationURL()
+	baseURL = ReadConfig.getApplicationURL()
 	Email = ReadConfig.getUserEmail()
 	Password = ReadConfig.getPassword()
 	logger = LogGen.loggen()
 
+	@pytest.mark.regression
 	def test_searchCustomerByEmail(self, setup):
 		self.logger.info("SearchCustomerByEmail_004")
 		self.driver = setup
@@ -38,5 +43,3 @@ class Test_SearchCustomerByEmail_004:
 		assert True == status
 		self.logger.info("Test Finished")
 		self.driver.close()
-
-

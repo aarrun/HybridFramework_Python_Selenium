@@ -3,6 +3,7 @@ from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from utilities import XLUtils
 import time
+import pytest
 
 
 class Test_002_DDT_Login:
@@ -10,6 +11,7 @@ class Test_002_DDT_Login:
 	path = ".//TestData//LoginData.xlsx"
 	logger = LogGen.loggen()
 
+	@pytest.mark.regression
 	def test_login_ddt(self, setup):
 		self.logger.info("Login Test")
 		self.driver = setup
