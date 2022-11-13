@@ -1,11 +1,13 @@
-from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.firefox.service import Service
 import pytest
 
 
 @pytest.fixture()
 def setup(browser):
 	if browser == "chrome":
-		driver = webdriver.Chrome()
+		serv_obj = Service("C:\Users\\aruns\AppData\Local\Programs\Python\Python39\Scripts\chromedriver.exe")
+		driver = webdriver.Chrome(service=serv_obj)
 		print("Launching Chrome Browser")
 
 	elif browser == "firefox":
