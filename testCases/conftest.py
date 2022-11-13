@@ -16,7 +16,8 @@ def setup(browser):
 		print("Launching Firefox Browser")
 
 	else:
-		driver = webdriver.Chrome()
+		serv_obj = Service("C:\Users\\aruns\AppData\Local\Programs\Python\Python39\Scripts\chromedriver.exe")
+		driver = webdriver.Chrome(service=serv_obj)
 
 	return driver
 
