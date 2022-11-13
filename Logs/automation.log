@@ -181,3 +181,12 @@ INFO:root:Login Test
 11/14/22 04:31:44 AM: INFO: ****Test_001_Login*****
 11/14/22 04:31:44 AM: INFO: Verifying
 11/14/22 04:31:49 AM: INFO: Login Test
+11/14/22 04:43:04 AM: INFO: Test_003_AddCustomer
+11/14/22 04:43:13 AM: INFO: Login Successful
+11/14/22 04:43:19 AM: INFO: Providing Customer Info
+11/14/22 04:43:31 AM: INFO:  Saving Customer Info
+11/14/22 04:43:31 AM: INFO: Add customer validation started
+11/14/22 04:43:31 AM: INFO: Test Passed
+11/14/22 04:43:33 AM: INFO: ****Test_001_Login*****
+11/14/22 04:43:33 AM: INFO: Verifying
+11/14/22 04:43:54 AM: INFO: Login Test

@@ -6,7 +6,7 @@ import pytest
 @pytest.fixture()
 def setup(browser):
 	if browser == "chrome":
-		serv_obj = Service("D:\chromedriver.exe")
+		serv_obj = Service("D:\\chromedriver.exe")
 		driver = webdriver.Chrome(service=serv_obj)
 		print("Launching Chrome Browser")
 
@@ -15,7 +15,7 @@ def setup(browser):
 		print("Launching Firefox Browser")
 
 	else:
-		serv_obj = Service("D:\chromedriver.exe")
+		serv_obj = Service("D:\\chromedriver.exe")
 		driver = webdriver.Chrome(service=serv_obj)
 
 	return driver
