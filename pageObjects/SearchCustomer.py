@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-
+import pytest
 
 class SearchCustomer:
 	txtEmail_xpath = "//input[@id='SearchEmail']"
