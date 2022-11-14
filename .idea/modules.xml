@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/HybridFramework_jio.iml" filepath="$PROJECT_DIR$/.idea/HybridFramework_jio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HybridFramework.iml" filepath="$PROJECT_DIR$/.idea/HybridFramework.iml" />
     </modules>
   </component>
 </project>
